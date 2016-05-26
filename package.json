@@ -1,0 +1,27 @@
+{
+  "name": "duet-build",
+  "version": "1.0.0",
+  "description": "An tiny, opinionated build tool for creating duet app bundles.",
+  "bin": {
+    "duet-build": "bin/duet-build"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.1",
+    "mkdirp": "^0.5.1",
+    "optimist": "^0.6.1",
+    "uglifyify": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/colingourlay/duet.git"
+  },
+  "author": "Colin Gourlay <colin@colin-gourlay.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colingourlay/duet/issues"
+  },
+  "homepage": "https://github.com/colingourlay/duet#readme",
+  "devDependencies": {}
+}
